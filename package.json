@@ -1,0 +1,30 @@
+{
+  "name": "@uiuxengineering/node-kill-process",
+  "version": "1.0.0",
+  "description": "Kill child node processes by process ID.",
+  "main": "index.js",
+  "scripts": {
+    "clean.install": "rm -rf node_modules && npm cache clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UIUXEngineering/node-kill-process.git"
+  },
+  "keywords": [
+    "node",
+    "child_process"
+  ],
+  "author": "Jerry Orta <jerryorta.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UIUXEngineering/node-kill-process/issues"
+  },
+  "homepage": "https://github.com/UIUXEngineering/node-kill-process#readme",
+  "peerDependencies": {
+    "ps-tree": "^1.1.0"
+  },
+  "devDependencies": {
+    "ps-tree": "^1.1.0"
+  }
+}
